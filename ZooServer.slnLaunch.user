@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "zooModel\\zooModel.csproj",
+        "Action": "Start",
+        "DebugTarget": "zooModel"
+      },
+      {
+        "Path": "ZooServer\\ZooServer.csproj",
+        "Action": "Start",
+        "DebugTarget": "http"
+      }
+    ]
+  }
+]

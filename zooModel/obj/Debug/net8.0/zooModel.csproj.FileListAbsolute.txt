@@ -1,0 +1,15 @@
+C:\Users\domin\repos\ZooServer\zooModel\bin\Debug\net8.0\zooModel.deps.json
+C:\Users\domin\repos\ZooServer\zooModel\bin\Debug\net8.0\zooModel.dll
+C:\Users\domin\repos\ZooServer\zooModel\bin\Debug\net8.0\zooModel.pdb
+C:\Users\domin\repos\ZooServer\zooModel\obj\Debug\net8.0\zooModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\domin\repos\ZooServer\zooModel\obj\Debug\net8.0\zooModel.AssemblyInfoInputs.cache
+C:\Users\domin\repos\ZooServer\zooModel\obj\Debug\net8.0\zooModel.AssemblyInfo.cs
+C:\Users\domin\repos\ZooServer\zooModel\obj\Debug\net8.0\zooModel.csproj.CoreCompileInputs.cache
+C:\Users\domin\repos\ZooServer\zooModel\obj\Debug\net8.0\zooModel.sourcelink.json
+C:\Users\domin\repos\ZooServer\zooModel\obj\Debug\net8.0\zooModel.dll
+C:\Users\domin\repos\ZooServer\zooModel\obj\Debug\net8.0\refint\zooModel.dll
+C:\Users\domin\repos\ZooServer\zooModel\obj\Debug\net8.0\zooModel.pdb
+C:\Users\domin\repos\ZooServer\zooModel\obj\Debug\net8.0\ref\zooModel.dll
+C:\Users\domin\repos\ZooServer\zooModel\bin\Debug\net8.0\zooModel.runtimeconfig.json
+C:\Users\domin\repos\ZooServer\zooModel\obj\Debug\net8.0\zooModel.csproj.AssemblyReference.cache
+C:\Users\domin\repos\ZooServer\zooModel\obj\Debug\net8.0\zooModel.genruntimeconfig.cache

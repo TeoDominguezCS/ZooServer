@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "tePtAMu5oS+gsyB+E8LEWsuGaOWG90ZsOa9Wh3aCxJE=",
+  "Source": "ZooServer",
+  "BasePath": "_content/ZooServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
