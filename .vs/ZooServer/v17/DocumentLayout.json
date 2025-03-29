@@ -1,12 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\domin\\repos\\ZooServer\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\mbd49636\\source\\repos\\ZooServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A96BC3CC-4C15-FEF0-71DD-9341A114EC60}|ZooServer\\ZooServer.csproj|c:\\users\\mbd49636\\source\\repos\\zooserver\\zooserver\\zooserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A96BC3CC-4C15-FEF0-71DD-9341A114EC60}|ZooServer\\ZooServer.csproj|solutionrelative:zooserver\\zooserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ZooServer",
+              "DocumentMoniker": "C:\\Users\\mbd49636\\source\\repos\\ZooServer\\ZooServer\\ZooServer.csproj",
+              "RelativeDocumentMoniker": "ZooServer\\ZooServer.csproj",
+              "ToolTip": "C:\\Users\\mbd49636\\source\\repos\\ZooServer\\ZooServer\\ZooServer.csproj",
+              "RelativeToolTip": "ZooServer\\ZooServer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-28T21:41:22.975Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

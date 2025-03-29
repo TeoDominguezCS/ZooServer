@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\domin\\repos\\ZooServer\\zooModel\\zooModel.csproj": {}
+    "C:\\Users\\mbd49636\\source\\repos\\ZooServer\\zooModel\\zooModel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\domin\\repos\\ZooServer\\zooModel\\zooModel.csproj": {
+    "C:\\Users\\mbd49636\\source\\repos\\ZooServer\\zooModel\\zooModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\domin\\repos\\ZooServer\\zooModel\\zooModel.csproj",
+        "projectUniqueName": "C:\\Users\\mbd49636\\source\\repos\\ZooServer\\zooModel\\zooModel.csproj",
         "projectName": "zooModel",
-        "projectPath": "C:\\Users\\domin\\repos\\ZooServer\\zooModel\\zooModel.csproj",
-        "packagesPath": "C:\\Users\\domin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\domin\\repos\\ZooServer\\zooModel\\obj\\",
+        "projectPath": "C:\\Users\\mbd49636\\source\\repos\\ZooServer\\zooModel\\zooModel.csproj",
+        "packagesPath": "C:\\Users\\mbd49636\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mbd49636\\source\\repos\\ZooServer\\zooModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\domin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mbd49636\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
