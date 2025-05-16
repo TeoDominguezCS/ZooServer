@@ -13,3 +13,4 @@ C:\Users\domin\repos\ZooServer\zooModel\obj\Debug\net8.0\ref\zooModel.dll
 C:\Users\domin\repos\ZooServer\zooModel\bin\Debug\net8.0\zooModel.runtimeconfig.json
 C:\Users\domin\repos\ZooServer\zooModel\obj\Debug\net8.0\zooModel.csproj.AssemblyReference.cache
 C:\Users\domin\repos\ZooServer\zooModel\obj\Debug\net8.0\zooModel.genruntimeconfig.cache
+C:\Users\domin\repos\ZooServer\zooModel\bin\Debug\net8.0\appsettings.json

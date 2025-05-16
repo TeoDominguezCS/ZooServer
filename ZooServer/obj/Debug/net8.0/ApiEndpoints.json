@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "ZooServer.Controllers.AdminController",
+    "Method": "LoginAsync",
+    "RelativePath": "api/Admin/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ZooServer.DTOS.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ZooServer.Controllers.AnimalsController",
     "Method": "GetAnimals",
     "RelativePath": "api/Animals",
@@ -218,6 +234,48 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ZooServer.Controllers.HabitatsController",
+    "Method": "GetHabitatPopulation",
+    "RelativePath": "api/Habitats/GetPopulation/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ZooServer.DTOS.HabitatPopulation",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ZooServer.Controllers.SeedController",
+    "Method": "ImportUsersAsync",
+    "RelativePath": "api/Seed/Users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "ZooServer.Controllers.ZoosController",
     "Method": "GetZoos",
     "RelativePath": "api/Zoos",
@@ -325,6 +383,32 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ZooServer.Controllers.ZoosController",
+    "Method": "GetZooPopulation",
+    "RelativePath": "api/Zoos/GetHabitatNumber/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ZooServer.DTOS.ZooPopulation",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "ZooServer.Controllers.WeatherForecastController",

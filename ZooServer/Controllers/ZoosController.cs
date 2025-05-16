@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using zooModel;
+using ZooServer.DTOS;
 
 namespace ZooServer.Controllers
 {
@@ -38,6 +39,20 @@ namespace ZooServer.Controllers
                 return NotFound();
             }
 
+            return zoo;
+        }
+
+        [HttpGet("GetHabitatNumber/{id}")]
+        public async Task<ActionResult<ZooPopulation>> GetZooPopulation(int id)
+        {
+            ZooPopulation zoo = await _context.Zoos.Where(zoo => zoo.ZooId == id).Select(zoo => new ZooPopulation
+            {
+                ZooId = zoo.ZooId,
+                Name = zoo.Name,
+                Address = zoo.Address,
+                State = zoo.State,
+                HabitatNumber = zoo.Habitats.Count(),
+            }).SingleAsync();
             return zoo;
         }
 

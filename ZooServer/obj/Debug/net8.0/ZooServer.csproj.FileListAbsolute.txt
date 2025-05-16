@@ -867,10 +867,12 @@ C:\Users\domin\repos\ZooServer\ZooServer\obj\Debug\net8.0\staticwebassets\msbuil
 C:\Users\domin\repos\ZooServer\ZooServer\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ZooServer.props
 C:\Users\domin\repos\ZooServer\ZooServer\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ZooServer.props
 C:\Users\domin\repos\ZooServer\ZooServer\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\domin\repos\ZooServer\ZooServer\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\domin\repos\ZooServer\ZooServer\obj\Debug\net8.0\ZooServer.csproj.Up2Date
 C:\Users\domin\repos\ZooServer\ZooServer\obj\Debug\net8.0\ZooServer.dll
 C:\Users\domin\repos\ZooServer\ZooServer\obj\Debug\net8.0\refint\ZooServer.dll
 C:\Users\domin\repos\ZooServer\ZooServer\obj\Debug\net8.0\ZooServer.pdb
 C:\Users\domin\repos\ZooServer\ZooServer\obj\Debug\net8.0\ZooServer.genruntimeconfig.cache
 C:\Users\domin\repos\ZooServer\ZooServer\obj\Debug\net8.0\ref\ZooServer.dll
+C:\Users\domin\repos\ZooServer\ZooServer\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\domin\repos\ZooServer\ZooServer\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\domin\repos\ZooServer\ZooServer\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

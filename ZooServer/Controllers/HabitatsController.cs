@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using zooModel;
+using ZooServer.DTOS;
 
 namespace ZooServer.Controllers
 {
@@ -27,6 +29,7 @@ namespace ZooServer.Controllers
             return await _context.Habitats.ToListAsync();
         }
 
+        [Authorize]
         // GET: api/Habitats/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Habitat>> GetHabitat(int id)
@@ -40,6 +43,20 @@ namespace ZooServer.Controllers
 
             return habitat;
         }
+
+        [Authorize]
+        [HttpGet("GetPopulation/{id}")]
+        public async Task<ActionResult<HabitatPopulation>> GetHabitatPopulation(int id)
+        {
+            HabitatPopulation habitat = await _context.Habitats.Where(habitat => habitat.HabitatId == id).Select(habitat => new HabitatPopulation
+            {
+                HabitatId = habitat.HabitatId,
+                Name = habitat.Name,
+                TotalPopulaton = habitat.Animals.Sum(c => c.Population),
+            }).SingleAsync();
+            return habitat;
+        }
+
 
         // PUT: api/Habitats/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
@@ -103,5 +120,6 @@ namespace ZooServer.Controllers
         {
             return _context.Habitats.Any(e => e.HabitatId == id);
         }
+
     }
 }

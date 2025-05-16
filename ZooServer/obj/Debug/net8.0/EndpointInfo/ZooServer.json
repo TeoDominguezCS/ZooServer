@@ -1,10 +1,47 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "ZooServer",
-    "version": "1.0"
+    "title": "Zoo APIs",
+    "description": "APIs for Zoos",
+    "contact": {
+      "name": "Teo",
+      "url": "https://canvas.csun.edu/courses/128137",
+      "email": "teo.dominguez.782@my.csun.edu"
+    },
+    "version": "V1"
   },
   "paths": {
+    "/api/Admin/Login": {
+      "post": {
+        "tags": [
+          "Admin"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Animals": {
       "get": {
         "tags": [
@@ -375,6 +412,58 @@
         }
       }
     },
+    "/api/Habitats/GetPopulation/{id}": {
+      "get": {
+        "tags": [
+          "Habitats"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/HabitatPopulation"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HabitatPopulation"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HabitatPopulation"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Seed/Users": {
+      "post": {
+        "tags": [
+          "Seed"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -598,6 +687,46 @@
           }
         }
       }
+    },
+    "/api/Zoos/GetHabitatNumber/{id}": {
+      "get": {
+        "tags": [
+          "Zoos"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ZooPopulation"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ZooPopulation"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ZooPopulation"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
@@ -684,6 +813,46 @@
         },
         "additionalProperties": false
       },
+      "HabitatPopulation": {
+        "type": "object",
+        "properties": {
+          "habitatId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "totalPopulaton": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "animalCount": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginRequest": {
+        "required": [
+          "password",
+          "userName"
+        ],
+        "type": "object",
+        "properties": {
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "WeatherForecast": {
         "type": "object",
         "properties": {
@@ -741,7 +910,46 @@
           }
         },
         "additionalProperties": false
+      },
+      "ZooPopulation": {
+        "type": "object",
+        "properties": {
+          "zooId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "address": {
+            "type": "string",
+            "nullable": true
+          },
+          "state": {
+            "type": "string",
+            "nullable": true
+          },
+          "habitatNumber": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Please enter *only* JWT token",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
       }
     }
-  }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
 }
