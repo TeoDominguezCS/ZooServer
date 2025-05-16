@@ -13,4 +13,22 @@ C:\Users\domin\repos\ZooServer\zooModel\obj\Debug\net8.0\ref\zooModel.dll
 C:\Users\domin\repos\ZooServer\zooModel\bin\Debug\net8.0\zooModel.runtimeconfig.json
 C:\Users\domin\repos\ZooServer\zooModel\obj\Debug\net8.0\zooModel.csproj.AssemblyReference.cache
 C:\Users\domin\repos\ZooServer\zooModel\obj\Debug\net8.0\zooModel.genruntimeconfig.cache
+<<<<<<< HEAD
 C:\Users\domin\repos\ZooServer\zooModel\bin\Debug\net8.0\appsettings.json
+=======
+C:\Users\mbd49636\source\repos\ZooServer\zooModel\bin\Debug\net8.0\zooModel.deps.json
+C:\Users\mbd49636\source\repos\ZooServer\zooModel\bin\Debug\net8.0\zooModel.runtimeconfig.json
+C:\Users\mbd49636\source\repos\ZooServer\zooModel\bin\Debug\net8.0\zooModel.dll
+C:\Users\mbd49636\source\repos\ZooServer\zooModel\bin\Debug\net8.0\zooModel.pdb
+C:\Users\mbd49636\source\repos\ZooServer\zooModel\obj\Debug\net8.0\zooModel.csproj.AssemblyReference.cache
+C:\Users\mbd49636\source\repos\ZooServer\zooModel\obj\Debug\net8.0\zooModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mbd49636\source\repos\ZooServer\zooModel\obj\Debug\net8.0\zooModel.AssemblyInfoInputs.cache
+C:\Users\mbd49636\source\repos\ZooServer\zooModel\obj\Debug\net8.0\zooModel.AssemblyInfo.cs
+C:\Users\mbd49636\source\repos\ZooServer\zooModel\obj\Debug\net8.0\zooModel.csproj.CoreCompileInputs.cache
+C:\Users\mbd49636\source\repos\ZooServer\zooModel\obj\Debug\net8.0\zooModel.sourcelink.json
+C:\Users\mbd49636\source\repos\ZooServer\zooModel\obj\Debug\net8.0\zooModel.dll
+C:\Users\mbd49636\source\repos\ZooServer\zooModel\obj\Debug\net8.0\refint\zooModel.dll
+C:\Users\mbd49636\source\repos\ZooServer\zooModel\obj\Debug\net8.0\zooModel.pdb
+C:\Users\mbd49636\source\repos\ZooServer\zooModel\obj\Debug\net8.0\zooModel.genruntimeconfig.cache
+C:\Users\mbd49636\source\repos\ZooServer\zooModel\obj\Debug\net8.0\ref\zooModel.dll
+>>>>>>> d2d82a985b6d02b59dc2d89e4505a2f8c8d0c3c0

@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\domin\\repos\\ZooServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A96BC3CC-4C15-FEF0-71DD-9341A114EC60}|ZooServer\\ZooServer.csproj|c:\\users\\domin\\repos\\zooserver\\zooserver\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A96BC3CC-4C15-FEF0-71DD-9341A114EC60}|ZooServer\\ZooServer.csproj|solutionrelative:zooserver\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A96BC3CC-4C15-FEF0-71DD-9341A114EC60}|ZooServer\\ZooServer.csproj|c:\\users\\domin\\repos\\zooserver\\zooserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A96BC3CC-4C15-FEF0-71DD-9341A114EC60}|ZooServer\\ZooServer.csproj|solutionrelative:zooserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A96BC3CC-4C15-FEF0-71DD-9341A114EC60}|ZooServer\\ZooServer.csproj|c:\\users\\domin\\repos\\zooserver\\zooserver\\jwthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A96BC3CC-4C15-FEF0-71DD-9341A114EC60}|ZooServer\\ZooServer.csproj|solutionrelative:zooserver\\jwthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A96BC3CC-4C15-FEF0-71DD-9341A114EC60}|ZooServer\\ZooServer.csproj|c:\\users\\domin\\repos\\zooserver\\zooserver\\dtos\\habitatpopulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A96BC3CC-4C15-FEF0-71DD-9341A114EC60}|ZooServer\\ZooServer.csproj|solutionrelative:zooserver\\dtos\\habitatpopulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\domin\\repos\\ZooServer\\ZooServer\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "ZooServer\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\domin\\repos\\ZooServer\\ZooServer\\appsettings.Development.json",
-              "RelativeToolTip": "ZooServer\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-16T18:13:19.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\domin\\repos\\ZooServer\\ZooServer\\Program.cs",
-              "RelativeDocumentMoniker": "ZooServer\\Program.cs",
-              "ToolTip": "C:\\Users\\domin\\repos\\ZooServer\\ZooServer\\Program.cs",
-              "RelativeToolTip": "ZooServer\\Program.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAEoAAAAKAAAAAAAAAA==",
+              "Title": "HabitatPopulation.cs",
+              "DocumentMoniker": "C:\\Users\\domin\\repos\\ZooServer\\ZooServer\\DTOS\\HabitatPopulation.cs",
+              "RelativeDocumentMoniker": "ZooServer\\DTOS\\HabitatPopulation.cs",
+              "ToolTip": "C:\\Users\\domin\\repos\\ZooServer\\ZooServer\\DTOS\\HabitatPopulation.cs",
+              "RelativeToolTip": "ZooServer\\DTOS\\HabitatPopulation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T18:11:05.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "JwtHandler.cs",
-              "DocumentMoniker": "C:\\Users\\domin\\repos\\ZooServer\\ZooServer\\JwtHandler.cs",
-              "RelativeDocumentMoniker": "ZooServer\\JwtHandler.cs",
-              "ToolTip": "C:\\Users\\domin\\repos\\ZooServer\\ZooServer\\JwtHandler.cs",
-              "RelativeToolTip": "ZooServer\\JwtHandler.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T18:09:05.675Z",
+              "WhenOpened": "2025-05-16T23:21:44.483Z",
               "EditorCaption": ""
             }
           ]
